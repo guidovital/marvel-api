@@ -1,8 +1,3 @@
-# Read Me First
-The following was discovered as part of building this project:
-
-* The original package name 'com.growin.marvel-api' is invalid and this project uses 'com.growin.marvelapi' instead.
-
 # Getting Started
 
 ### Reference Documentation
@@ -22,6 +17,10 @@ The following guides illustrate how to use some features concretely:
 * [Building REST services with Spring](https://spring.io/guides/tutorials/rest/)
 
 # Run app
+
+First of all, you need change the application.properties:
+marvelApiPublicKey=YOUR_PUCLIB_KEY
+marvelApiPrivateKey=YOUR_PRIVATE_KEY
 
 To running the app, run the project as a Java Application or as Spring Boot App on your favorite IDE.
 After run the app, it's gonna start to retrieve information from Marvel's API in order to save the data in memory

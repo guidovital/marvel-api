@@ -1,4 +1,4 @@
-package com.growin.marvelapi.controller;
+package com.growin.marvelapi.controller.character;
 
 import java.util.Arrays;
 import java.util.Locale;
